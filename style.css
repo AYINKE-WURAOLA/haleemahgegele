@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.one{
+    background: rgb(247, 243, 243);
+    color: rgb(65, 22, 22);
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+h1{
+    font-weight: 700;
+}
+.top{
+    align-items: center;
+    text-align: center;
+
+}
+.two{
+    margin-top:-4px;
+}
+.three{
+    margin-top: -18px;
+}
+.row{
+    margin-top: 60px;
+}
+:hover .img{
+    transition: 0s ease-in;
+    transform: translateY(10px);
+    opacity: 1;
+}
+img{
+  margin-top: -90px;
+}
+span{
+    margin-left: 170px;
+}
+.text2{
+    margin-top: 30px;
+}
+.text3{
+    margin-top: 40px;
+}
+.text4{
+    margin-top: 30px;
+}
+.box{
+    margin-top: 140px;
+    height: 100px;
+    width: 400px;
+    background: rgb(186, 173, 173);
+border-radius: 5px;
+}
+.box1, .box2{
+    font-size: 20px;
+}
+.texxt{
+    margin-left: -70px;
+}
+.row1{
+    display: flex;
+    flex-direction: column;
+}
+.box2{
+    margin-top: -70px;
+}
+.texts{
+    margin-top: -70px;
+    margin-left: -180px;
+}
+.text7{
+    margin-top: -10px;
+}
+@media screen and (max-width:768px){
+ .one{
+    height: auto;
+    width: 100%;
+ }  
+ .top{
+    padding-top: 30px !important;
+ } 
+ h1{
+    font-size: 40px !important;
+ }
+ img{
+    margin: 0px !important;
+    height: 500px !important;
+    margin-top: -30px !important;
+ }
+ .box{
+    margin: 0px !important;
+    width: 300px !important;
+ }
+ .texxt{
+    margin: 0px !important;
+    margin-top: -30px !important;
+    margin-left: 150px !important;
+ }
+ .texts{
+    margin: 0px !important;
+    margin-top: -70px !important;
+    margin-left: 30px !important;
+ }
+ }
